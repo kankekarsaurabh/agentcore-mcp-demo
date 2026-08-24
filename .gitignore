@@ -1,0 +1,24 @@
+# Generated at deploy time -- contains the Cognito demo user's password in
+# plaintext, plus account-specific ARNs/URLs. NEVER commit this.
+infra/state.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# uv / venv
+.venv/
+
+# Editor/OS cruft
+.DS_Store
+.vscode/
+.idea/
+
+# AWS credentials, if anyone ever runs `aws configure` inside this dir
+.aws/
+*.pem
+
+# Local env overrides
+.env
+.env.*
